@@ -1,0 +1,63 @@
+$colors:(
+   
+    "yellow" :$clr-primary-light,
+    "green":$clr-green,
+    "light":$clr-light,
+    "dark":$clr-dark,
+    "gray":$clr-gray,
+    "primary":$clr-primary,
+);
+
+@each $key, $val in $colors{
+    .bg{
+    &--#{$key}{
+            background:$val;
+             }
+    }
+    .text{
+        &--#{key}{
+            color:$val;
+        }
+    } 
+}
+
+
+
+$displays: flex,block,inline-block,none;
+
+@each $display in $displays{
+    .d{
+        &--#{$display}{
+            display: $display;
+        }
+    }
+
+}
+
+
+
+$allignments:(
+    "center":center,
+    "justify":justify,
+    
+);
+
+@each $key, $val in $allignments{
+    .text{
+
+        &--#{key}{
+            text-align: $val;
+        }
+    }
+}
+
+@for $i from 1 through 20{
+    .py--#{$i}{
+        padding:$i +rem 0;
+    }
+
+    .ml--#{$i}{
+        margin-left:$i +rem;
+    }
+}
+

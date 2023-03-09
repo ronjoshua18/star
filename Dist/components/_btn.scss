@@ -1,0 +1,84 @@
+// // .btn1{
+// //     background-color: $clr-primary;
+// //     padding: .8rem 1.8rem;
+// //     // border-radius: 3rem;
+// //     border: 1px solid;
+// //     display: inline-block;
+// //     transition: .5s ease-in-out;
+// //     &-primary{
+// //         background-color: $clr-primary;
+// //         color: $clr-light;
+// //         border-color: $clr-primary;
+// //         &:hover{
+// //             background-color: darken($clr-primary, 10);
+// //         }
+// //     }
+
+
+// //     &-outline{
+// //         background-color: transparent;
+// //         color: $clr-primary;
+// //         border-color: $clr-primary;
+// //         &:hover{
+// //             background-color: $clr-primary;
+// //             color: $clr-light ;
+// //         }
+// //     }
+
+// //     &--dark{
+// //         background-color: $clr-dark;
+// //         color: $clr-light;
+// //         border-color: $clr-dark;
+// //         &:hover{
+// //             background-color: darken($clr-dark, 10);
+// //         }
+// //     }
+// // }
+
+// .btn{
+//     background-color: $clr-primary;
+//     color: $clr-light;
+//     &__primary{
+//         padding: 1.5rem 7rem;
+//     }
+//     &__primary__small{
+//         padding: 1rem 7rem;
+//     }
+//     &:hover{
+//         background-color: $clr-light;
+//     }
+// }
+
+// .btn2{
+//     background-color: $clr-light;
+//     color: $clr-dark;
+//     border-radius: .5rem;
+//     padding: .3rem .5rem;
+
+// }
+
+.btn{
+    padding: .7rem 1.6rem;
+    border-radius: 2rem;
+    font-weight: 700;
+    &__outline__light{
+        color: $clr-light;
+        border: 1px solid $clr-light;
+        &:hover{
+            background-color: #ffffff2f;
+        }
+    }
+    &__primary__outline{
+        color: darken($clr-green ,10);
+        background-color: transparent;
+        border: 1px solid $clr-green;
+        &:hover{
+            background-color: #ffffff2f;
+        }
+    }
+}
+
+
+
+
+
